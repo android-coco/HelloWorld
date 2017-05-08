@@ -1,0 +1,50 @@
+em {
+	color: #666;
+	font-style: normal;
+}
+
+.record {
+	width: 700px;
+	height:120px;
+	padding-top:20px;
+	margin:0 auto;
+	left: 0;
+	top: 0;
+	border-bottom: 1px dashed #ccc;
+
+	color: #333;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.record a {
+	color: #6eafd5;
+	text-decoration: none;
+}
+
+.record a:hover {
+	text-decoration: underline;
+	color: #c00;
+}
+
+.record .image {
+	float: left;
+	height:100px;
+	width:100px;
+	display: block;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.record .image img{
+	height:100px;
+	width:100px;
+}
+.record .right{
+	padding-left:122px;
+	height: 102px;
+}
+.record .right .menu{
+	float:right;
+	padding-right:50px;
+	overflow:visible;
+}
