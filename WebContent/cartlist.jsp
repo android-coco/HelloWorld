@@ -31,7 +31,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			return document.getElementById(id);
 		}
 	</script>
-  </head>
+  </head> 
   
   <body>
   <form action="RecordCtrl">
