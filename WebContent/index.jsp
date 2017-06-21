@@ -12,6 +12,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <title>唱片列表</title>
 	<link href="css/record.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript">
 	function buy(id){
 		var form = document.forms[0];
@@ -39,6 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<br />
 			<div class="menu">
 				<a href="javascript:buy('${r.id}');">购买</a>
+				<a href="javascript:add(1,2)">解决</a>
 			</div>
 		</div>
 	</div>
